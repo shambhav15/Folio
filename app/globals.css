@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes slide-out {
+    0% {
+      transform: scaleX(0);
+      transform-origin: left;
+    }
+    100% {
+      transform: scaleX(1);
+      transform-origin: left;
+    }
+  }
+  
+  .animate-slide-out {
+    animation: slide-out 0.9s forwards ;
+  }
+  .animate-slide-in {
+    animation: slide-in 0.9s forwards;
+  }
