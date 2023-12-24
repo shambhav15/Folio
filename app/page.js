@@ -238,10 +238,10 @@ export default function Home() {
                     Your ultimate webflow partner
                     </h1>
                     <p className="p-2 text-lg text-gray-500">
-                      "Passionate web developer creating captivating, functional
+                      Passionate web developer creating captivating, functional
                       sites. Committed to mastering web trends for seamless
                       experiences. Balancing aesthetics and user value in every
-                      project. Join the digital adventure with me!"
+                      project. Join the digital adventure with me!
                     </p>
                     <Link
                       href={"/Contacts"}
